@@ -136,4 +136,6 @@
     line-height: 30px;
 }
 .recipes__iframe {
+    width: 480px;
+    height: 273px;
 }
