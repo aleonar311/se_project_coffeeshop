@@ -297,14 +297,38 @@
 }
 .about {
     padding: 100px 80px 173px 0;
+    background-color: #0a2850;
 }
 .about__title {
     max-width: 251px;
+    z-index: 1;
+    position: relative;
+    color: white;
+    margin-left: 80px;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
 }
 .about__content {
+    color: white;
     max-width: 660px;
+    margin-left: 850px;
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
 }
 .about__paragraph {
 }
 .about__circle {
+    background-color: #2f80ed;
+    width: 426px;
+    height: 426px;
+    border-radius: 50%;
+    position: absolute;
+    margin-top: -500px;
+    margin-left: -129px;
 }
