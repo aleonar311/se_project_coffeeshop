@@ -5,6 +5,7 @@
 @import url(../blocks/recipes.css);
 @import url(../blocks/reservation.css);
 @import url(../blocks/form.css);
+@import url(../blocks/about.css);
 
 .page {
     min-width: 1100px;
@@ -296,15 +297,19 @@
     flex-grow: 1;
 }
 .about {
-    padding: 100px 80px 173px 0;
+    padding: 100px 80px 173px 80px;
     background-color: #0a2850;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
 }
 .about__title {
     max-width: 251px;
     z-index: 1;
     position: relative;
+    margin-top: 0;
     color: white;
-    margin-left: 80px;
     font-family: "Inter";
     font-style: normal;
     font-weight: 500;
@@ -312,9 +317,9 @@
     line-height: 52px;
 }
 .about__content {
+    padding: 19px 0 0;
     color: white;
     max-width: 660px;
-    margin-left: 850px;
     font-family: "Noto Serif";
     font-style: normal;
     font-weight: normal;
@@ -329,6 +334,9 @@
     height: 426px;
     border-radius: 50%;
     position: absolute;
-    margin-top: -500px;
-    margin-left: -129px;
+    top: -152px;
+    left: -129px;
+}
+.about__circle_animation_blurred {
+    animation: pulsate;
 }
