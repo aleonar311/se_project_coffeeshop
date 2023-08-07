@@ -10,3 +10,47 @@
         opacity: 0.6;
     }
 }
+
+.about {
+    padding: 100px 80px 173px 80px;
+    background-color: #0a2850;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+.about__title {
+    max-width: 251px;
+    z-index: 1;
+    position: relative;
+    margin-top: 0;
+    color: white;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 44px;
+    line-height: 52px;
+}
+.about__content {
+    padding: 19px 0 0;
+    color: white;
+    max-width: 660px;
+    font-family: "Noto Serif";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about__circle {
+    background-color: #2f80ed;
+    width: 426px;
+    height: 426px;
+    border-radius: 50%;
+    position: absolute;
+    top: -152px;
+    left: -129px;
+}
+.about__circle_animation_blurred {
+    animation: pulsate 1.3s ease-in-out 6s infinite;
+}

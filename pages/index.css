@@ -326,8 +326,7 @@
     font-size: 20px;
     line-height: 30px;
 }
-.about__paragraph {
-}
+
 .about__circle {
     background-color: #2f80ed;
     width: 426px;
@@ -339,4 +338,14 @@
 }
 .about__circle_animation_blurred {
     animation: pulsate 1.3s ease-in-out 6s infinite;
+}
+.footer {
+    background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
+    padding: 60px 100px 60px 80px;
+}
+.footer__content {
+    color: #fff;
+}
+.footer__copyright {
+    color: #fff;
 }
