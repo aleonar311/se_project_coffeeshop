@@ -29,6 +29,7 @@
 }
 .footer__social-link:hover {
     color: #c1c1c1;
+    transition: color 0.2s linear;
 }
 .footer__logo {
     width: 105px;
